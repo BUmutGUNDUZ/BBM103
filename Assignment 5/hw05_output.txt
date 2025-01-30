@@ -1,0 +1,26 @@
+=== Bubble Sorted Results ===
+Warehouse_ID  Priority_Level  Package_Count
+----------------------------------------
+WH-003        1               25           
+WH-002        1               51           
+WH-007        1               74           
+WH-005        2               68           
+WH-006        3               16           
+WH-004        4               43           
+WH-008        4               59           
+WH-001        4               80           
+WH-010        5               66           
+WH-009        5               94           
+
+=== Comparison Results ===
+Merge and Bubble sorts are identical.
+Quick and Bubble sorts are identical.
+
+=== Sort Performance Metrics ===
+Bubble priority sort iteration count: 45
+Merge priority sort n_of right array is smaller than left: 7
+Quick priority sort recursive step count: 5
+
+Bubble package count sort iteration count: 7
+Merge package count n_of right array is smaller than left: 4
+Quick package count sort recursive step count: 5
